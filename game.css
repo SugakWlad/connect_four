@@ -1,0 +1,109 @@
+
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(179, 179, 179);
+}
+
+.hello {
+	display: absolute;
+	height: 400px;
+	width: 700px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.preferences {
+	height: 500px;
+	width: 350px;
+	float: left;
+}
+
+.name {
+	font-size: 50px;
+	width: 250px;
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 25px;
+	margin: 30px auto;
+}
+
+.mode {
+	width: 280px;
+	font-size: 30px;
+	text-align: center;
+	margin: 70px auto;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.mode:hover{
+	border-color: rgb(48, 114, 255);
+	cursor: pointer;
+}
+
+.thinking {
+	width: 700px;
+	height: 150px;
+	display: none;
+}
+
+.maybe {
+	float: left;
+	height: 150px;
+	width: 100px;
+	padding-top: 30px;
+	opacity: 0.4;
+}
+
+.container {
+	width: 700px;
+	height: 600px;
+	background-color: black;
+	display: none;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border-radius: 3px;
+
+}
+
+.circle {
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+	border-radius: 40px;
+	background-color: white;
+	text-align: center;
+}
+
+.move {
+	transform: translateY(0px);
+	transition-property: transform;
+	transition-duration: 0.4s;
+
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+#win {
+	text-align: center;
+	font-size: 180px;
+	border: 2px solid black;
+	width: 1000px;
+	height: 200px;
+	position: absolute;
+	display: none;
+	z-index: 100;
+}
