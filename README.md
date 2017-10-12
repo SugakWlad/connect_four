@@ -16,7 +16,7 @@ It's a really fun project where I used only **HTML**, **CSS**, **JS** and **DOM*
 
 ![other signers](https://github.com/SugakWlad/connect_four/blob/master/screenshots/win.png)
 ![other signers](https://github.com/SugakWlad/connect_four/blob/master/screenshots/after_win.png)
-* And then the game will be reload
+* And then the game will be relouded
 ***
 
 You can see all screenshots in [screenshots folder](https://github.com/SugakWlad/connect_four/tree/master/screenshots)
